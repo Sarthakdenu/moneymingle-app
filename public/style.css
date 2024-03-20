@@ -1,0 +1,981 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(48, 2, 175);
+    background: url(https://w0.peakpx.com/wallpaper/797/647/HD-wallpaper-purple-background-design-vector-art-icon-and-graphics-for-modern-purple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #navbar
+  {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #navbar a
+  {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+#navbar {
+    background-color: rgb(48, 2, 175);
+    
+    padding: 10px; 
+    color: white; 
+  }
+  
+  #navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar li {
+    display: inline;
+    margin-right: 20px; 
+  }
+  
+  #navbar a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+  }
+  
+  #navbar a:hover {
+    color: #ffcc00;
+  }
+  
+  #registrationpage {
+    margin: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 800px;
+    padding: 20px;
+    backdrop-filter: blur(10px); 
+    background-color: rgba(255, 255, 255, 0); 
+  }
+  
+#mainheading
+{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-family: "poppins"
+}
+
+#details
+{
+    height: 60px;
+    color: white;
+    
+    margin: 3px;
+    width: 600px;
+}
+#login{
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid white;
+    font-family: "poppins";
+    background-color: rgb(48, 2, 175);
+
+}
+#login a,#signup a{
+    text-decoration: none;
+    color: white;
+}
+#signup
+{
+    text-align: center;
+    font-size: 25px;
+    padding-right: 40px;
+    border: 1px solid white;
+    font-family: "poppins";
+    background-color: rgb(48, 2, 175);
+}
+#inputblock
+{
+    width: 600px; 
+    margin: 8px;
+}
+#basic-addon1
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(78, 0, 161);
+}
+#submitbutton
+{
+    font-family: "poppins";
+    font-size: 20px;
+    background-color: rgb(48, 2, 175);
+    width: 600px;
+    margin: 30px;
+}
+#signbutton
+{
+    font-family: "poppins";
+    font-size: 15px;
+    width: 600px;
+    margin: 1px;
+}
+
+#navigation-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:rgb(20, 1, 72);
+    height: 30px;
+    padding: 0 15px;
+    color: white;
+    height: 60px;
+    width: 1400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .dropdown {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: "poppins";
+    font-size: 20px;
+    font-size: 35px;
+    padding-left: 40px;
+    padding-right: 60px;
+    width: 300px;
+  }
+  
+  .btn-secondary {
+   
+    background-color:rgb(20, 1, 72);
+    border: none;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .dropdown-menu {
+  
+    background-color:rgb(20, 1, 72);
+  }
+  
+  .dropdown-item {
+    color: white;
+  }
+  
+  .fa-icon {
+    color: white;
+    margin-right: 10px; 
+    font-size: 20px;  
+    padding-left: 30px;
+  }
+  #favgroup
+  {
+    display: flex;
+  }
+  #favicons
+  {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .carousel-item img{
+    height: 400px;
+  }
+ #tranferblock
+ {
+    background-color:rgb(20, 1, 72);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+ 
+.tranferheading
+{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
+.options
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.categories
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: column;
+    
+}
+.categories p{
+    padding-left: 45px;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 45px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.categories button{
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    background-color: rgb(129, 0, 249);
+    border-radius: 15px;
+}
+#tranferfav
+{
+    color: white;
+    font-size: 40px;
+}
+#upiidblock
+{
+    background-color:rgb(20, 1, 72);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+#imgi img
+{
+    height: 100x;
+    width: 100px;
+}
+#imgi
+{
+    padding-left: 160px;
+}
+#recieveheading
+{
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+#upid
+{
+    display: flex;
+    padding-top: 10px;
+}
+#upid p
+{
+    color: white;
+    font-weight: bolder;
+    padding-left: 100px;
+    font-size: 20px;
+}
+#rightarrow
+{
+    color: white;
+    font-size: 40px;
+    margin-left: auto;
+    padding-right: 160px;
+}
+#reawrdblack
+{
+    display: flex;
+    background-color:rgb(20, 1, 72);
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.rewards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 280px;
+    background-color: rgb(0, 15, 6);
+    border: 2px solid white;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.rewards p{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#iconform
+{
+    font-size: 70px;
+    color: white;
+}
+#pin
+{
+    display: flex;
+    background-color:rgb(20, 1, 72);
+    border: 2px solid white;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+#pin-img
+{
+    padding-left: 160px;
+    padding-top: 15px;
+}
+#pin-img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+#statements{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: bolder;
+    padding-left: 100px;
+    padding-top: 25px;
+    font-family: "poppins";
+}
+#pinbuttonclass
+{
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  padding-right: 150px;
+}
+#pinbutton
+{
+    background-color: rgb(129, 0, 249);
+    height: 60px;
+    width: 300px;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#rechargeblock
+{
+  display: flex;
+    background-color:rgb(20, 1, 72);
+    border: 2px solid white;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+#reachargeicon
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#headingblock
+{
+  font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+#headingblock button
+{
+  background-color: rgb(129, 0, 249);
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: auto;
+}
+#reachargeicon p
+{
+  font-size: 20px;
+  color:  white;
+  font-weight: bolder;
+}
+#favrechicon
+{
+  padding-left: 90px;
+  padding-right: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#favrechicon div{
+  font-size: 45px;
+  color:  rgb(129, 0, 249);
+}
+#headingblockpart2
+{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bolder;
+  display: flex;
+  padding-left: 60px;
+  padding-right: 40px;
+}
+#reachargeiconpart2
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reachargeiconpart2 p
+{
+  font-size: 20px;
+  color:  white;
+  font-weight: bolder;
+}
+#favriconpart2
+{
+  padding-left: 110px;
+  padding-right: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#favriconpart2 div{
+  font-size: 45px;
+  color:  rgb(129, 0, 249);
+}
+
+#personaldetailblock
+{
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(20, 1, 72);
+  width: 1000px;
+  border: solid 2px white;
+  border-radius: 20px;
+}
+#pdheading
+{
+  color: white;
+  display: flex;
+  border: solid 2px white;
+}
+#pdheading p
+{
+  font-size: 20px;
+  font-weight: bolder;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+#specialbn
+{
+  margin-left: auto;
+  padding-top: 10px;
+}
+#specialbn button
+{
+   margin-left: 30px;
+   margin-right: 40px;
+   background-color:rgb(20, 1, 72);
+   color: white;
+   font-size: 20px;
+}
+#specialbn label
+{
+   margin-left: 30px;
+   margin-right: 40px;
+   background-color:rgb(20, 1, 72);
+   color: white;
+   font-size: 20px;
+}
+#mainpd
+{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border: solid 2px white;
+}
+#mainpd p{
+  padding-top:15px;
+  font-size: 20px;
+  padding-left: 40px;
+  font-weight: bolder;
+}
+#mainpd h3
+{
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+#inputblockiii
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#inputblockiii input{
+  width: 800px;
+  padding-top: 5px;
+  background-color:rgb(20, 1, 72);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 10px;
+  color: white;
+}
+#inputblockiii input::placeholder
+{
+  color: white;
+}
+#inputblockiii form input{
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(20, 1, 72);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#inputblockiii form
+{
+  color: white;
+  padding-bottom: 10px
+}
+#inputblockiii form input::placeholder
+{
+  color: white;
+}
+#inputblockiii button
+{
+  width: 800px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color:  rgb(129, 0, 249);
+  border: 2px solid white;
+  border-radius: 20px;
+}
+#pdimg img{
+  height: 400px;
+  width: 1000px;
+}
+
+#transactionblock
+{
+  background-color: white;
+  width: 1000px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+#transheading
+{
+  display: flex;
+}
+#part1
+{
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: bolder;
+  padding-left: 40px;
+}
+#checkbalanace
+{
+  background-color: rgb(214, 214, 214);
+  color: black;
+}
+#transupi
+{
+  padding-top: 20px;
+  margin-left: auto;
+  padding-right: 120px;
+}
+#transupi img{
+  height: 50px;
+  width: 80px;
+}
+#checkbalanace p{
+  padding-top: 20px;
+  color: rgb(54, 52, 52);
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+#mainpin
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(56, 56, 56);
+}
+#mainpin p{
+  font-size: 25px;
+  font-weight: bolder;
+}
+#securebox
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
+#securecontent
+{
+  background-color: rgb(240, 182, 55);
+  color: rgb(33, 33, 33);
+  width: 300px;
+  border: 1px solid gold;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#keypad
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(214, 214, 214);
+}
+#keypadcol
+{
+  display: flex;
+}
+#keypadcol button
+{
+  width: 150px;
+  height: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid  rgb(214, 214, 214);
+  background-color: rgb(214, 214, 214);
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(1, 1, 78);
+}
+#otp
+{
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+#bankbloack
+{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(20, 1, 72);
+  color:  white;
+}
+#bankheadingblock
+{
+  font-size: 25px;
+  padding-left: 30px;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#searchbynumber
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#searchbynumber input{
+  width: 800px;
+  background-color:rgb(20, 1, 72);
+  height: 50px;
+  border-radius: 30px;
+  border: 3px solid rgb(129, 0, 249);
+}
+#searchbynumber input::placeholder
+{
+  color: rgb(129, 0, 249);
+  font-size: 20px;
+}
+#banksections
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+#bsh
+{
+  margin-right: auto;
+  font-size: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+#bankicons
+{
+  display: flex;
+}
+#bankicons button
+{
+  color: white;
+  background-color:rgb(20, 1, 72);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: rgb(20, 1, 72);
+}
+#bankicons button img{
+  height: 50px;
+  width: 50px;
+  border-radius: 40px;
+}
+#bankicons button p{
+  font-size: 20px;
+  padding-top: 10px;
+
+}
+#Bankdetails
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#Bankdetails p{
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+#Bankdetails input{
+  width: 800px;
+  background-color:rgb(20, 1, 72);
+  height: 50px;
+  border-radius: 30px;
+  border: 3px solid rgb(129, 0, 249);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+#Bankdetails input::placeholder
+{
+  color: rgb(129, 0, 249);
+  font-size: 20px;
+}
+
+#bshi
+{
+  margin-right: auto;
+  font-size: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+#Bankdetails button
+{
+  width: 800px;
+  background-color: rgb(129, 0, 249);
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 40px;
+}
+#bankaccountdetails
+{
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#bankaccountdetails h3{
+  font-size: 30px;
+  font-weight: bolder;
+}
+#bankaccountdetails p
+{
+  margin: 10px;
+}
+#transferheader
+{
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(20, 1, 72);
+  width: 1200px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+#transferheading
+{
+  display: flex;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+#fti
+{
+  padding-top: 6px;
+  font-size: 18px;
+  padding-right: 30px;
+}
+#trasnfertechniq
+{
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center;
+  align-items: center;
+}
+#transferfunctinal 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#transferfunctinal button
+{
+  width: 70px;
+  background-color: rgb(129, 0, 249);
+  color: white;
+  height: 60px;
+  font-size: 40px;
+  font-weight: bolder;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 20px;
+}
+#transferfunctinal p{
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+#transferinput
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+#transferinput input{
+  width: 1000px;
+  background-color:rgb(20, 1, 72);
+  height: 45px;
+  border-radius: 30px;
+  border: 3px solid rgb(129, 0, 249);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 5px;
+  color: white;
+}
+#transferinput input::placeholder
+{
+  color: rgb(129, 0, 249);
+  font-size: 20px;
+}
+#transferinput button
+{
+  background-color: rgb(129, 0, 249);
+  color: white;
+  font-size: 20px;
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border: 2px solid white;
+  font-weight: bolder;
+  margin: 3px;
+}
+#transferinput
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contacts{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  border: 2px solid white;
+  border: 20px;
+  color: white;
+}
+#numberconatact
+{
+  display: flex;
+}
+#contacts h4{
+  padding-top: 10px;
+  padding-left: 30px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+#numberconatact p{
+  margin: 20px;
+  border: 2px solid rgb(129, 0, 249);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+#numberconatact button
+{
+  background-color: rgb(129, 0, 249);
+  color: white;
+  font-size: 18px;
+  width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  border: 2px solid white;
+  font-weight: bolder;
+  margin: 20px;
+  margin-left: auto;
+}
+#contactlist
+{
+  border: 2px solid white;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#contacts
+{
+  border: 1px solid white;
+}
